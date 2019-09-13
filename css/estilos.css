@@ -1,0 +1,93 @@
+body{
+background-color: #ffe2c2;
+
+}
+
+
+a{
+	margin: 5px 10px;
+	text-decoration: none;
+}
+
+
+main{
+  margin-top: 20px;
+	width: 80%;
+	overflow: hidden;
+	margin-left: 130px;
+	float: left;
+}
+main div{
+	width: 47%;
+	margin:20px 10px;
+	padding: 10px;
+	float: left;
+}
+main div img{
+  display: inline-block;
+  float: left;
+}
+main div h2{
+  margin-left: 25%;
+}
+main div p{
+  margin-left: 25%;
+	justify-content:justify;
+  font-size: 14px;
+	font-family: sans-serif;
+	margin-right: 10px;
+}
+
+.fondoBlanco{
+	background-color: white;
+	}
+
+
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover {background-color: #575065}
+
+
+/*FORMULARIO LOGIN*/
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+	background-color: white;
+
+}
+.formcontainer {
+  padding: 16px;
+	margin: 15px 25%;
+
+}
+div input{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.formbutton{
+ background-color: red;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
