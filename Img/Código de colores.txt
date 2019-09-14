@@ -1,0 +1,15 @@
+Amarillo banner: 
+
+#e8da67
+
+Amarillo 2: lugar a definir
+
+#feee00
+
+Amarillo 3: lugar a definir
+
+#eec82d
+
+Rojo footer: 
+
+#a51d1a
