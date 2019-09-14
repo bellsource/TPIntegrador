@@ -3,7 +3,7 @@
 }
 
 body{
-background-color: #ffe2c2;
+background-color: #e8da67;
 
 }
 
@@ -11,8 +11,13 @@ header{
 	background-color: white;
 }
 
-header img {
+header img .img-thumbnail{
 	width: 5%;
+	border: 0px;
+}
+
+header form button .btn {
+	border-color: black;
 }
 
 a{
@@ -116,7 +121,7 @@ section div p span {
 }
 
 .site-shopping-info {
-background-color: #ffe2c2;
+background-color: #e8da67;
 margin-top: 36px;
 align-items: center;
 overflow: hidden;
@@ -126,6 +131,6 @@ overflow: hidden;
 div .img-container img {
 	width: 15%;
 	align-items: center;
-	background-color: #ffe2c2;
+	background-color: #e8da67;
 	float: left;
 }
