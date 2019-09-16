@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.jpg" alt="..." class="img-thumbnail">
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled" href="login.html">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categorias
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Novela</a>
+                <a class="dropdown-item" href="#">Cuentos</a>
+                <a class="dropdown-item" href="#">Poesía</a>
+
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+    </nav>
+
+    <form action="action_page.php">
+      <div class="imgcontainer">
+        <img src="img/logo_usuario.png" alt="Avatar Icon made by Freepik from www.flaticon.com" class="avatar">
+      </div>
+
+      <div class="formcontainer">
+        <label for="name"><b>Usuario</b></label>
+        <input type="text" placeholder="Enter Username" name="name" required>
+        <label for="psw"><b>contraseña</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button class="formbutton"type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="Recordame"> Recordame
+        </label>
+      </div>
+
+      <div class="formcontainer" style="background-color:#f1f1f1">
+        <span class="psw">¿Olvidó su <a href="#">contraseña?</a></span>
+      </div>
+    </form>
+  </body>
+</html>

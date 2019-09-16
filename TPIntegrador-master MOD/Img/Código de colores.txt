@@ -1,0 +1,15 @@
+Amarillo banner: 
+
+#e8da67
+
+Amarillo 2: nav bar
+
+#feee00
+
+Amarillo 3: button
+
+#eec82d
+
+Rojo : 
+
+#a51d1a
