@@ -1,8 +1,30 @@
+Body {
+ font-family: 'Barlow', sans-serif;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
 body{
-background-color: #ffe2c2;
+background-color: #e8da67;
+    border-color: none;
 
 }
 
+header{
+	background-color: #e8da67;
+}
+
+header img .img-thumbnail{
+	width: 5%;
+	border: 0px;
+}
+
+header form button .btn {
+	border-color: black;
+}
 
 a{
 	margin: 5px 10px;
@@ -30,9 +52,9 @@ main div img{
 main div h2{
   margin-left: 25%;
 }
-main div p{
+main div p {
   margin-left: 25%;
-	justify-content:justify;
+	justify-content: justify;
   font-size: 14px;
 	font-family: sans-serif;
 	margin-right: 10px;
@@ -54,7 +76,7 @@ main div p{
   font-size: 16px;
   cursor: pointer;
 }
-.button:hover {background-color: #575065}
+.button:hover {background-color: #e8da67}
 
 
 /*FORMULARIO LOGIN*/
@@ -90,4 +112,32 @@ div input{
  border: none;
  cursor: pointer;
  width: 100%;
+}
+
+//FOOTTER//
+
+section .container {
+ margin: 0 auto;
+ padding: 30px 0;
+
+}
+
+section div p span {
+	text-align: center;
+
+}
+
+.site-shopping-info {
+background-color: #eec82d;
+margin-top: 36px;
+align-items: center;
+overflow: hidden;
+}
+
+
+div .img-container img {
+	width: 15%;
+	align-items: center;
+	background-color: #eec82d;
+	float: left;
 }
